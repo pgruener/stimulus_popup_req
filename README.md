@@ -1,25 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+run
 
-Things you may want to cover:
+$ bundle
+$ rails db:migrate
 
-* Ruby version
+Start webpack
 
-* System dependencies
+$ rm -rf public/packs/* || true && bin/webpack -w
 
-* Configuration
+Start server
 
-* Database creation
+$ rails s
 
-* Database initialization
+Access on
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# stimulus_popup_req
+http://127.0.0.1:3000
